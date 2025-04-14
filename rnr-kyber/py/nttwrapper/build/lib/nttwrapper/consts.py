@@ -1,0 +1,12 @@
+MONT = -1044
+MINV_U = 169
+
+KYBERQ = 3329
+
+# Wide Unsigned
+R_WU = 5
+WIDE_U_KYBER_Q = R_WU * KYBERQ
+
+# Wide Signed
+R_WS = 9
+WIDE_S_KYBER_Q = R_WS * KYBERQ

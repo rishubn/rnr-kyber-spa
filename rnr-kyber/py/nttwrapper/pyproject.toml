@@ -1,0 +1,15 @@
+[project]
+name = "nttwrapper"
+version = "0.0.1"
+authors = [
+  { name="Rishub Nagpal", email="rishub.nagpal@iaik.tugraz.at" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+nttwrapper = ["*.so"]
